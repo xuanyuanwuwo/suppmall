@@ -9,11 +9,11 @@ const Find = ()=> import('views/find/Find.vue')
 const User = ()=> import('views/user/User.vue')
 
 const routes = [
-  {
-    path: '/',
-    name: 'Home',
-    component: Home
-  },
+  // {
+  //   path: '/',
+  //   name: 'Home',
+  //   component: Home
+  // },
   {
     path: '/home',
     name: 'Home',
