@@ -17,5 +17,7 @@ export default {
     bottom: 0;
     height: 49px;
     box-shadow: 0 -2px rgba(100, 100, 100, .3);
+    background-color: white;
+    z-index: 9;
   }
 </style>

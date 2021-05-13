@@ -7,13 +7,14 @@ const Home = ()=> import('views/home/Home.vue')
 const Play = ()=> import('views/play/Play.vue')
 const Find = ()=> import('views/find/Find.vue')
 const User = ()=> import('views/user/User.vue')
+const Detail = ()=> import('views/details/detail.vue')
 
 const routes = [
-  // {
-  //   path: '/',
-  //   name: 'Home',
-  //   component: Home
-  // },
+  {
+    path: '/',
+    name: 'Home',
+    component: Home
+  },
   {
     path: '/home',
     name: 'Home',
@@ -37,6 +38,11 @@ const routes = [
     name: 'User', 
     component: User
   },
+  {
+    path: '/detail/:iid', 
+    name: 'Detail', 
+    component: Detail
+  }
 ]
 
 const router = new VueRouter({
